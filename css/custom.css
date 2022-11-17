@@ -5,7 +5,7 @@
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-} 
+}
 
 @font-face {
   font-family: "Metropolis";
@@ -74,6 +74,9 @@
 body {
   background-color: var(--white-color);
   font-family: var(--body-font-family);
+}
+.ratio-1x1 {
+  --bs-aspect-ratio: 80vh !important;
 }
 
 /*---------------------------------------
@@ -1664,7 +1667,7 @@ blockquote::before {
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #c67b9b;
   --bs-btn-hover-border-color: #c67b9b;
-  --bs-btn-focus-shadow-rgb: 49,132,253;
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
   --bs-btn-active-color: #fff;
   --bs-btn-active-bg: #c67b9b;
   --bs-btn-active-border-color: #c67b9b;
